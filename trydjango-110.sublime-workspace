@@ -1,0 +1,351 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Hoe",
+				"HomeView"
+			],
+			[
+				"M",
+				"method"
+			],
+			[
+				"ge",
+				"get_object_or_404"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"kirr",
+				"KirrCBView"
+			],
+			[
+				"ki",
+				"kirr_redirect_view"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"cre",
+				"create_shortcode"
+			],
+			[
+				"K",
+				"KirrURL"
+			],
+			[
+				"__",
+				"__class__"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"a",
+				"auto_now_add"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"wor",
+				"word_counts"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"nu",
+				"numWords"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"H",
+				"H1\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 266.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110"
+	],
+	"file_history":
+	[
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/kirr/settings.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/shortener/views.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/shortener/models.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/shortener/utils.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/kirr/urls.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/shortener/templates/shortener/home.html",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/kirr/hostsconf/__init__.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/shortener/admin.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/kirr/hosts.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/kirr/hostsconf/views.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/kirr/hostsconf/urls.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/shortener/management/commands/__init__.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/shortener/management/__init__.py",
+		"/C/Users/Faisal Ahmed/Desktop/trydjango110/src/shortener/management/commands/refreshcodes.py",
+		"/C/Users/Faisal Ahmed/Dev/cfehome/cfehome.sublime-workspace",
+		"/C/xampp/htdocs/digitalClock.py",
+		"/C/xampp/htdocs/page1.html",
+		"/C/xampp/htdocs/css/main.css",
+		"/C/xampp/htdocs/words.txt",
+		"/C/xampp/htdocs/wordcount.py",
+		"/C/xampp/htdocs/my_cv/index.html",
+		"/C/xampp/htdocs/MY_CV/MY_CV/certy.px-lab.com/html/demo3/index.html",
+		"/C/xampp/htdocs/index1.html",
+		"/C/xampp/htdocs/main.css",
+		"/C/xampp/htdocs/PAGES/page1.html",
+		"/C/xampp/htdocs/PAGE1.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 159.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trydjango-110.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
