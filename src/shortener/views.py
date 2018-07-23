@@ -2,6 +2,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.views import View
 
+from .forms import SubmitUrlForm
 from .models import KirrURL
 
 # Create your views here.
@@ -18,16 +19,29 @@ def home_view_fbv(request, *args, **kwargs):
 
 class HomeView(View):
 	def get(self, request, *args, **kwargs):
-		return render(request, "shortener/home.html", {})  #Try Django 1.8  & 1.9 
+		the_form = SubmitUrlForm()
+		context = {
+			"title": "Kirr.co",
+			"form": the_form
+		}
+		return render(request, "shortener/home.html", context)  #Try Django 1.8  & 1.9 
 
 	def post(self, request, *args, **kwargs):
 		# some_dict = {}
 		# some_dict['url']	#this will give error
 		# some_dict.get('url', "http://google.com") #it will return None
-		print(request.POST)
-		print(request.POST.["url"])
-		print(request.POST.get("url"))
-		return render(request, "shortener/home.html", {})
+		# print(request.POST)
+		# print(request.POST.["url"])
+		# print(request.POST.get("url"))
+		form = SubmitUrlForm(request.POST)
+		if form.is_valid():
+			print(form.cleaned_data)
+
+		context = {
+			"title": "Kirr.co",
+			"form": form
+		}
+		return render(request, "shortener/home.html", context)
 
 
 class KirrCBView(View):  #class based view  CBV
