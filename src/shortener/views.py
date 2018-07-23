@@ -10,9 +10,24 @@ from .models import KirrURL
 # 	#do something
 # 	return HttpResponseRedirect(obj.url)
 
+
+def home_view_fbv(request, *args, **kwargs):
+	if request.method == "POST":
+		print(request.POST)
+	return render(request, "shortener/home.html", {})
+
 class HomeView(View):
 	def get(self, request, *args, **kwargs):
 		return render(request, "shortener/home.html", {})  #Try Django 1.8  & 1.9 
+
+	def post(self, request, *args, **kwargs):
+		# some_dict = {}
+		# some_dict['url']	#this will give error
+		# some_dict.get('url', "http://google.com") #it will return None
+		print(request.POST)
+		print(request.POST.["url"])
+		print(request.POST.get("url"))
+		return render(request, "shortener/home.html", {})
 
 
 class KirrCBView(View):  #class based view  CBV
